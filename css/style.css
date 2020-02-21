@@ -1,0 +1,13 @@
+div.imgs img{
+    max-width:100%;
+}
+
+label img{
+    width:16px;
+    margin-bottom: 3px;
+    opacity:50%;
+}
+
+label:hover img{
+    opacity:100%;
+}
