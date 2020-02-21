@@ -28,6 +28,7 @@ window.onload=function(){
         nasdaq:"https://www.nasdaq.com/market-activity/stocks/",
         tinvest:"http://tinvest.daager.ru/news.php?ticker=",
         shortsqueeze:"http://shortsqueeze.com/?symbol=",
+        gurufocus:"https://www.gurufocus.com/stock/",
         investing:()=>{}
     }
 
