@@ -29,6 +29,7 @@ window.onload=function(){
         tinvest:"http://tinvest.daager.ru/news.php?ticker=",
         shortsqueeze:"http://shortsqueeze.com/?symbol=",
         gurufocus:"https://www.gurufocus.com/stock/",
+        holdingschannel:"https://www.holdingschannel.com/bystock/?symbol=",
         investing:()=>{}
     }
 
