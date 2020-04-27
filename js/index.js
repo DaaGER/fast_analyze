@@ -7,8 +7,13 @@ function investing(ticker){
     return 'https://ru.investing.com/'+investing_json[ticker.toUpperCase()]
 }
 
+var ticker_input=document.getElementById("ticker")
 
 window.onload=function(){
+	let url = new URL(window.location)
+	let params = new URLSearchParams(url.search)
+	ticker_input.value=params.get('ticker')
+
     btn=document.getElementById("info");
     btn.addEventListener('click',function(){
         document.getElementById("collapse").classList.toggle('show');
@@ -29,6 +34,7 @@ window.onload=function(){
         tinvest:"http://tinvest.daager.ru/news.php?ticker=",
         shortsqueeze:"http://shortsqueeze.com/?symbol=",
         gurufocus:"https://www.gurufocus.com/stock/",
+        nakedshortreport:'https://nakedshortreport.com/company/'
         holdingschannel:"https://www.holdingschannel.com/bystock/?symbol=",
         investing:()=>{}
     }
@@ -38,7 +44,6 @@ window.onload=function(){
         startAnalyze()
     })
 
-    ticker_input=document.getElementById("ticker")
     ticker_input.addEventListener('keypress', function(e){
         if(e.code=='Enter'){
             startAnalyze()

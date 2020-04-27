@@ -8,6 +8,6 @@ label img{
     opacity:50%;
 }
 
-label:hover img{
+input:checked+label>img, label:hover img{
     opacity:100%;
 }
