@@ -36,6 +36,7 @@ window.onload=function(){
         gurufocus:"https://www.gurufocus.com/stock/",
         nakedshortreport:'https://nakedshortreport.com/company/',
         holdingschannel:"https://www.holdingschannel.com/bystock/?symbol=",
+        fool:"https://www.fool.com/quote/",
         investing:()=>{}
     }
 
