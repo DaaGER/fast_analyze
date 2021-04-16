@@ -21,6 +21,7 @@ window.onload=function(){
 
 
     var services={
+        barrons:"https://www.barrons.com/quote/stock/",
         zacks:"https://www.zacks.com/stock/quote/",
         zacks_tinvest:"https://tinvest.daager.ru/zacks/",
         yahoo:"https://finance.yahoo.com/quote/",
