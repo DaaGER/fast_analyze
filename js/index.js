@@ -32,7 +32,7 @@ window.onload=function(){
         earningswhispers:"https://www.earningswhispers.com/stocks/",
         tipranks:"https://www.tipranks.com/stocks/",
         morningstar:"http://financials.morningstar.com/ratios/r.html?t=",
-        wolfstreet:"https://wolfstreet.ru/stock/",
+        wolfstreet:"https://wolfstreet.pro/stock/",
         stockrow:"https://stockrow.com/",
         chartmill:"https://www.chartmill.com/stock/quote/",
         insidertracking:"https://www.insidertracking.com/node/7?menu_tickersearch=",
