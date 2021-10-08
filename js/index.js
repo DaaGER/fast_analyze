@@ -23,7 +23,7 @@ window.onload=function(){
     var services={
         barrons:"https://www.barrons.com/quote/stock/",
         zacks:"https://www.zacks.com/stock/quote/",
-        zacks_tinvest:"https://tinvest.daager.ru/zacks/",
+        zacks_tinvest:"http://zacks.daager.ru/zacks/",
         yahoo:"https://finance.yahoo.com/quote/",
         seekingalpha:"https://seekingalpha.com/symbol/",
         tradingview:"https://ru.tradingview.com/chart?symbol=",
@@ -40,9 +40,11 @@ window.onload=function(){
         tinvest:"http://tinvest.daager.ru/news.php?ticker=",
         shortsqueeze:"http://shortsqueeze.com/?symbol=",
         gurufocus:"https://www.gurufocus.com/stock/",
+        shortdata:'https://shortdata.ru/chart/',
         nakedshortreport:'https://nakedshortreport.com/company/',
         holdingschannel:"https://www.holdingschannel.com/bystock/?symbol=",
         fool:"https://www.fool.com/quote/",
+        whale:"https://whalewisdom.com/stock/",
         investing:()=>{}
     }
 
