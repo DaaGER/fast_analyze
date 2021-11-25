@@ -45,6 +45,9 @@ window.onload=function(){
         holdingschannel:"https://www.holdingschannel.com/bystock/?symbol=",
         fool:"https://www.fool.com/quote/",
         whale:"https://whalewisdom.com/stock/",
+        dataroma:"https://www.dataroma.com/m/stock.php?sym=",
+        investidei:"https://invest-idei.ru/stocks/",
+        quotemedia:"https://www.quotemedia.com/portal/quote/?qm_symbol=",
         investing:()=>{}
     }
 
